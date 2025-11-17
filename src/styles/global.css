@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+@import 'tailwindcss';
+
+@layer {
+  @font-face {
+    font-family: 'WS Bind';
+    src: url('/fonts/wsbind.tff');
+  }
+  @font-face {
+    font-family: 'Franklin Gothic';
+    src: url('/fonts/franklingothic.ttf');
+  }
+  @font-face {
+    font-family: 'Cheltenham';
+    src: url('/fonts/cheltenham-light.otf');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Cheltenham';
+    src: url('/fonts/cheltenham.otf');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Cheltenham';
+    src: url('/fonts/cheltenham-medium.otf');
+    font-weight: 500;
+  }
+  @font-face {
+    font-family: 'Cheltenham';
+    src: url('/fonts/cheltenham-bold.otf');
+    font-weight: 700;
+  }
+}
+
+@theme {
+  --color-outline: hsla(0, 0%, 1%, 1);
+  --color-text-primary: hsla(0, 7%, 1%, 1);
+  --color-text-secondary: hsla(0, 0%, 35%, 1);
+  --color-brand-white: hsla(100, 100%, 100%, 1);
+  --color-brand-black: hsla(0, 0%, 0%, 1);
+  --color-gray-1: hsla(0, 0%, 1%, 0.15);
+  --color-gray-2: hsla(0, 0%, 1%, 0.3);
+  --color-gray-3: hsla(0, 0%, 92%, 1);
+  --color-brand-red: hsla(352, 99%, 44%, 1);
+  --font-brand: 'WS Bind';
+  --font-franklin: 'Franklin Gothic';
+  --font-roboto-slab: 'Roboto Slab', serif;
+  --font-cheltenham: 'Cheltenham';
+  --font-inter: 'Inter';
+}
