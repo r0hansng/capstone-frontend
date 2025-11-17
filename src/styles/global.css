@@ -4,7 +4,7 @@
 @layer {
   @font-face {
     font-family: 'WS Bind';
-    src: url('/fonts/wsbind.tff');
+    src: url('/fonts/wsbind.ttf');
   }
   @font-face {
     font-family: 'Franklin Gothic';
@@ -12,7 +12,7 @@
   }
   @font-face {
     font-family: 'Cheltenham';
-    src: url('/fonts/cheltenham-light.otf');
+    src: url('/fonts/cheltenham.otf');
     font-weight: 300;
   }
   @font-face {
@@ -22,7 +22,7 @@
   }
   @font-face {
     font-family: 'Cheltenham';
-    src: url('/fonts/cheltenham-medium.otf');
+    src: url('/fonts/cheltenham-bold.otf');
     font-weight: 500;
   }
   @font-face {
